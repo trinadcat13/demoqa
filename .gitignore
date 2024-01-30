@@ -1,0 +1,4 @@
+/.venv/
+/Google Chrome for Testing.app/
+/.idea/
+*.pytest_cache
