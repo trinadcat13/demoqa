@@ -1,4 +1,5 @@
 from pages.demoqa import DemoQa
+from pages.elements import Elements
 
 
 def test_check_icon(browser):
