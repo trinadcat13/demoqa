@@ -22,6 +22,13 @@ class FormPage(BasePage):
 
         self.user_form = WebElement(driver, '#userForm')
 
+        self.btn_state = WebElement(driver, '#state')
+        self.inp_state = WebElement(driver, '#react-select-3-input')
+
+        self.btn_NCR = WebElement(driver, "//*[contains(text(), 'NCR')]", 'xpath')
+
+
+
 
 
 
