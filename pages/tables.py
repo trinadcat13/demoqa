@@ -28,6 +28,13 @@ class Tables(BasePage):
         self.salary = WebElement(driver, 'div:nth-child(4) > div > div:nth-child(5)')
         self.department = WebElement(driver, 'div:nth-child(4) > div > div:nth-child(6)')
 
+        self.firstname_column = WebElement(driver, 'div.rt-thead.-header > div > div:nth-child(1)')
+        self.lastname_column = WebElement(driver, 'div.rt-thead.-header > div > div:nth-child(2)')
+        self.age_column = WebElement(driver, 'div.rt-thead.-header > div > div:nth-child(3)')
+        self.mail_column = WebElement(driver, 'div.rt-thead.-header > div > div:nth-child(4)')
+        self.salary_column = WebElement(driver, 'div.rt-thead.-header > div > div:nth-child(5)')
+        self.department_column = WebElement(driver, 'div.rt-thead.-header > div > div:nth-child(6)')
+
         self.edit = WebElement(driver, '#edit-record-4')
         self.delete = WebElement(driver, '#delete-record-4')
 
